@@ -1,0 +1,43 @@
+Supported modules in pipeline:
+
+Word Tokenizers:
+1) Happy
+2) Nltk
+3) Tweebo
+4) Stanford
+
+Sentence Tokenizer:
+1) Nltk
+2) Taggers
+3) Tweebo
+4) Stanford
+5) AmalGram
+
+Parsers:
+1) Stanford
+
+Normalizer
+1) Wnut
+2) Internal Normalizer implementation
+
+Other features:
+1) Punctuation correction (including multiple ! or . etc.)
+2) Unicode characters handling
+3) Repeated character Normalization
+4) Removing Emoticons
+5) Spell checking
+6) Lemmatization
+7) HashTag Normalization
+8) Support of NER check during correction and HashTag Normalization
+
+Supported input formats currently:
+1) Text
+2) CSV
+3) Mysql database
+
+Output Format:
+Stanford parsed output format "wordsAndTags,typedDependencies"
+
+Input sample:
+message id, user id, message
+1, 10234, "lol"
